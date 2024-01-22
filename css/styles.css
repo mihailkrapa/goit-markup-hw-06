@@ -39,6 +39,12 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+@media only screen and (max-width: 767.98px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
 
 .text-align {
   text-align: center;
@@ -61,7 +67,22 @@ img {
   display: flex;
   gap: 40px;
 }
+@media only screen and (max-width: 767.98px) {
+  .header-list {
+    display: none;
+  }
+}
 
+.header-menu {
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+@media only screen and (min-width: 768px) {
+  .header-menu {
+    display: none;
+  }
+}
 .black-color {
   color: var(--black-color);
 }
@@ -81,6 +102,12 @@ img {
   text-transform: uppercase;
   color: var(--second-blue-color);
   margin-right: 76px;
+}
+@media only screen and (max-width: 767.98px) {
+  .logo {
+    padding-top: 17.5px;
+    padding-bottom: 17.5px;
+  }
 }
 
 .link {
@@ -667,4 +694,6 @@ img {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+@media only screen and (max-width: 757px) {
 }
