@@ -516,10 +516,11 @@ img {
 }
 
 .features-title {
-  font-size: 20px;
+  font-size: 36px;
   line-height: 1.2;
   letter-spacing: 0.04em;
   margin-bottom: 8px;
+  text-align: center;
 }
 @media only screen and (min-width: 768px) {
   .features-title {
@@ -530,7 +531,7 @@ img {
   .features-title {
     font-weight: 500;
     line-height: 1.2;
-    font-size: 36px;
+    font-size: 20px;
     letter-spacing: 0.02em;
   }
 }
