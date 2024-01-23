@@ -139,7 +139,7 @@ img {
 }
 
 .header-menu {
-  padding: 0;
+  padding: 16px 0;
   border: none;
   background: transparent;
 }
@@ -447,6 +447,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   gap: 72px;
+  justify-content: center;
 }
 @media only screen and (min-width: 768px) {
   .list-display {
@@ -565,7 +566,7 @@ img {
 }
 @media only screen and (min-width: 768px) {
   .about-team-list {
-    width: calc((100% - 1 * 24px) / 2);
+    width: 264px;
   }
 }
 @media only screen and (min-width: 1158px) {
@@ -764,6 +765,7 @@ img {
 }
 @media only screen and (min-width: 768px) {
   .footer-conteiner {
+    padding-left: 15px;
     /* gap: 24px; */
   }
 }
@@ -817,6 +819,12 @@ img {
   }
 }
 
+@media only screen and (min-width: 1158px) {
+  .footer-social-div {
+    margin-right: 80px;
+  }
+}
+
 .footer-links {
   display: flex;
   gap: 16px;
@@ -833,6 +841,7 @@ img {
 @media only screen and (min-width: 1158px) {
   .footer-logo-p {
     margin-right: 120px;
+    margin-bottom: 0;
   }
   .footer-form {
     margin-left: auto;
@@ -852,7 +861,7 @@ img {
 }
 
 .footer-form-input {
-  width: 264px;
+  width: 288px;
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
@@ -863,7 +872,23 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   color: #ffffff;
+  opacity: 0.6;
 }
+
+@media only screen and (min-width: 768px) {
+  .footer-form-input {
+    width: 264px;
+    opacity: 0.3;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .footer-form-input {
+    width: 264px;
+    opacity: 1;
+  }
+}
+
 .footer-form-input::placeholder {
   color: #ffffff;
 }
